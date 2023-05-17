@@ -1,0 +1,20 @@
+body {
+    background-color:  #89c08b;
+}
+
+.center {
+    color: rgb(15, 167, 167);
+    text-align: center;
+    border: 2px solid; 
+    height: 100px;
+}
+
+#blog {
+    background-color: rgb(93, 93, 107);
+    border: 2px solid red;
+}
+
+.navbar {
+    text-align: center;
+    margin-right: 50px;
+}
