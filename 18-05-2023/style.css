@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Poppins:wght@500&family=Roboto+Serif&family=Roboto:wght@400;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0; 
+} 
+
+body {
+    padding: 20px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,149,0,0.6751740139211138) 38%);
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.navbar {
+    padding: 30px;
+    background-color: #025464;
+    border-radius: 24px;
+
+}
+
+.flex {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+}
+
+
+ul li:hover {
+    transform: scale(1.2);
+}
+
+a {
+    text-decoration: none;
+    color: antiquewhite;
+    transition: all 0.35s;    
+}
+
+a:hover {
+    color: black;
+}
+
+p {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.main_content {
+    padding: 30px;
+}
+
+.container {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.image_1 {
+    width: 600px;
+    height: 400px;
+    max-width: 400px;
+}
+
+.footer_ {
+    padding: 20px;
+    background-color: #025464;
+    border-radius: 24px;
+}
+
+.footer_list ul {
+    padding: 20px;
+    color: antiquewhite;
+    list-style-type: circle;
+    width: fit-content;
+    cursor: pointer;
+}
+
