@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Noto+Sans:wght@400;700&family=Poppins:wght@500&family=Roboto+Serif&family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: azure;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    height: 100vh;
+    flex-direction: column;
+}
+
+
+.flex {
+   list-style-type: none;
+   display: flex;
+   justify-content: flex-end;
+   gap: 50px;
+   padding: 10px;
+   background-color: bisque;
+}
+
+.flex li {
+    padding: 5px; 
+    background-color: aquamarine;
+    border-radius: 10px;
+
+    
+}
+
+.flex li:hover {
+    background-color: brown;
+    transform: scale(1.2);
+    transition: all 0.5s;
+}
+
+.flex li a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 2px;
+}
+
+
+
+.navbar {
+    color: antiquewhite;
+    width: 100%;
+    position: fixed;
+    
+}
+
+.hamburger {
+    width: 5%;
+    display: none;
+}
+
+
+
+
+.modulo {
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+    min-width: 50%;
+    border: 2px solid grey; 
+    padding: 40px;
+    border-radius: 10px;
+    background-color: rgb(218, 197, 197);
+    margin-top: 100px;
+}
+
+input {
+    outline: none;
+    border-radius: 7px;
+    padding: 5px;
+    width: 100%;
+    border: 3px solid aqua;
+    background-color: bisque;
+    letter-spacing: 2px;
+    
+}
+
+.label_1 {
+    padding: 15px;
+    text-align: center;
+    color: black
+    
+}
+
+#subscribe {
+    margin: 30px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: aquamarine;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    letter-spacing: 2px;   
+}
+
+#subscribe:hover {
+    background-color: brown;
+    transform: scale(1.2);
+    transition: all 0.5s;
+}
+
+footer h1 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.flex_footer a {
+    text-decoration: none;
+    color: black;
+}
+
+.flex_footer li {
+    padding-top: 10px;
+}
+
+#container {
+    display: flex;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    
+    .hamburger {
+        display: block;
+    }
+
+    ul li {
+        display: none;
+    }
+    
+}  
+
+@media screen and (max-width: 400px) {
+    
+   
+    .modulo {
+        margin-top: 100px;
+    }
+
+    .flex li {
+        width: 100%;
+        
+    }
+
+    input {
+        width: fit-content;
+    }
+        
+    
+
+    
+}
+
+
+    
